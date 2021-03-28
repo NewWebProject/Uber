@@ -1,0 +1,161 @@
+@media ( max-width: 1200px )
+    .meniu
+        &_item
+            padding-right: 20px
+        &_link
+            font-size: 13px
+    .promo
+        &_header
+            font-size: 50px
+    .reasons
+        &_descr
+            width: 300px
+    .mobile_item
+        width: 300px
+    .footer_links
+        width: 340px
+    .footer_mobile
+        font-size: 0.7rem
+@media ( max-width: 991px )
+    .meniu
+        &_item
+            padding-right: 8px
+        &_link
+            font-size: 10px
+    .subheader
+        &_logo1
+            width: 170px
+        &_text
+            font-size: 11px
+        &_call
+            font-size: 13px
+        &_phone
+            font-size: 18px
+        &_btn
+            margin-top: 21px
+            height: 40px
+            width: 100%
+    .promo
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 26px
+    .reasons
+        &_descr
+            width: 300px
+            margin-top: 20px
+    .reasons_block
+        flex-direction: column
+        align-items: center
+        justify-content: center
+    .mobile_item
+        width: 222px
+    .footer_links
+        width: 300px
+        a
+            font-size: 11px
+        &_sub
+            a
+                font-size: 9px   
+    .footer_mobile
+        font-size: 0.5rem
+@media ( max-width: 767px )
+    .meniu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0, 0, 0, 0.8)
+        transition: 0.7s all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+        &_link
+            font-size: 20px
+            text-decoration: none
+            margin-top: 10px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 1s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        &_phone
+            color: #fff
+            font-size: 16px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: center
+        &_btn
+            display: block
+            width: 210px
+            height: 42px
+            margin: 0 auto
+@media ( max-width: 575px )
+    min-width: none
+    .subheader
+        height: 60px
+        &_text
+            display: none
+        &_logo
+            width: 5px
+            height: 5px
+        &_logo1
+            width: 120px
+        &_phone
+            font-size: 12px
+            font-weight: 400
+            text-transform: uppercas
+            margin-top: 11px
+        &_btn
+            display: block
+            width: 110px
+            height: 22px
+            margin: 0 auto
+            font-size: 10px
+            margin-top: 9px
+    .footer
+        flex-direction: column
+        &_mobile
+            display: none
+        &_social
+            display: none
+        &_wrapper
+            display: none
+        &_divider
+            display: none
+    .meniu
+        width: 100%
+        text-align: center
+        &_link
+            display: block

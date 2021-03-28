@@ -1,0 +1,178 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    position: fixed; 
+    width: 100%;
+    min-height: 51px;
+    background-color:#212121;
+}
+.meniu {
+    display: flex;
+    padding: 10px 70px;
+    margin: 0;
+    list-style: none;
+    justify-content:space-between;
+}
+.meniu .meniu_link {
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.meniu .meniu_item {
+    border-right: 2px dotted black;
+    padding-right: 33px;
+}
+.subheader {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 51px;
+    min-height: 85px;
+    position: absolute;
+    width: 100%;
+}
+.subheader .subheader_logo {
+    display: block;
+    margin-top: 17px;
+    max-width: 100%;
+}
+.subheader .subheader_text {
+    color: #FFFFFF;
+    opacity: 0.5019607843137255;
+    font-weight: 400;
+    margin-top: 6px;
+}
+.subheader .subheader_call {
+    margin-top: 19px;
+    color: #FFFFFF;
+    font-weight: 300;
+    text-align: right;
+}
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 6px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-align: right;
+    font-size: 26px;
+}
+.promo {
+    min-height: 800px;
+    background: url('../img/main_bg1.png') center center/cover no-repeat;
+    padding: 218px 0 135px 0;
+} 
+.subheader .subheader_btn {
+    border-radius: 8px;
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: 3px solid rgba(0, 0, 0, 0.07);
+    background-image: linear-gradient (to top, #1EACC7 0%, #1EACC7 100%);
+    background-color: #1EACC7;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.promo .promo_header {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size:60px;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+}
+.promo .promo_subheader {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size:36px;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin: 0;
+    margin-top: 23px;
+    text-align: center;
+}
+.promo .promo_descr {
+    margin-top: 23px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size:20px;
+    line-height: 24px;
+    text-align: center;
+}
+.promo .promo_btn {
+    border-radius: 8px;
+    width: 259px;
+    height: 64px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: 3px solid rgba(0, 0, 0, 0.07);
+    background-image: linear-gradient (to top, #1EACC7 0%, #1EACC7 100%);
+    background-color: #1EACC7;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 118px;
+}
+.second {
+    min-height: 899px;
+    background-color: #FFFFFF;
+    padding: 71px 0 65px 0;
+}
+.second .label {
+    width: 113px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size:11px;
+    text-transform: uppercase;
+    Text-align: center;
+}
+.second .title {
+    color: #222222;
+    font-weight: 300px; 
+    font-size: 38px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 38px;
+}
+.second .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 50px 18px 26px;
+}
+.second .block .round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 114px;
+    height: 114px;
+    background-color: #1EACC7;
+    border-radius: 100%;
+}
+.second .block .round .round_img{
+    width: 114px;
+}
+.second .block .round_descr {
+    display: flex;
+    width: 341px;
+}
+.second .block .block_title {
+    line-height: 25px;
+    color: #1EACC7;
+    font-size: 20px;
+    font-weight: 400; 
+}
+.second .block .block_text {
+    color: #202020;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: justify;
+}
